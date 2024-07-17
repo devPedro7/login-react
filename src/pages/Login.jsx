@@ -11,6 +11,7 @@ import { useState } from "react";
 
 const Login = () => {
 
+    //ADICIONANDO USESTATE PARA MOSTRAR E ESCONDER SENHA
     const [mostrarSenha, setMostrarSenha] = useState(false);
 
     return ( 
