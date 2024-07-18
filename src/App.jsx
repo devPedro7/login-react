@@ -1,9 +1,14 @@
 import Paths from "./routes/Path";
+import { Autenticacao } from "./context/Autenticacao";
 
 const App = () => {
+
+
   return ( 
     <>
-      <Paths></Paths>
+      <Autenticacao>
+          <Paths></Paths>
+      </Autenticacao>
     </>
    );
 }
